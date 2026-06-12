@@ -313,7 +313,6 @@
 		DE6F027C2DE646340051A507 /* UIView+RxExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6F00AF2DE646340051A507 /* UIView+RxExtension.swift */; };
 		DE6F02832DE646340051A507 /* TextAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6F00C12DE646340051A507 /* TextAttributes.swift */; };
 		DE6F02842DE646340051A507 /* ObservableRetrySingle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6F00BD2DE646340051A507 /* ObservableRetrySingle.swift */; };
-		DE6F028E2DE646340051A507 /* AmplitudeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6F00962DE646340051A507 /* AmplitudeManager.swift */; };
 		DE6F02A12DE646340051A507 /* RestAPITransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6F00B52DE646340051A507 /* RestAPITransport.swift */; };
 		DE6F02B82DE646340051A507 /* DefaultRequestWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6F00B12DE646340051A507 /* DefaultRequestWrapper.swift */; };
 		DE6F02B92DE646340051A507 /* RxActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6F00992DE646340051A507 /* RxActivityIndicator.swift */; };
@@ -653,7 +652,6 @@
 		DE6F00892DE6462E0051A507 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
 		DE6F008A2DE6462E0051A507 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
 		DE6F008D2DE6462E0051A507 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		DE6F00962DE646340051A507 /* AmplitudeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmplitudeManager.swift; sourceTree = "<group>"; };
 		DE6F00982DE646340051A507 /* PaginatedDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginatedDataLoader.swift; sourceTree = "<group>"; };
 		DE6F00992DE646340051A507 /* RxActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxActivityIndicator.swift; sourceTree = "<group>"; };
 		DE6F009B2DE646340051A507 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
@@ -2033,14 +2031,6 @@
 			path = Strings;
 			sourceTree = "<group>";
 		};
-		DE6F00972DE646340051A507 /* Analytics */ = {
-			isa = PBXGroup;
-			children = (
-				DE6F00962DE646340051A507 /* AmplitudeManager.swift */,
-			);
-			path = Analytics;
-			sourceTree = "<group>";
-		};
 		DE6F009A2DE646340051A507 /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -2140,7 +2130,6 @@
 		DE6F00C92DE646340051A507 /* Misc */ = {
 			isa = PBXGroup;
 			children = (
-				DE6F00972DE646340051A507 /* Analytics */,
 				DE6F009A2DE646340051A507 /* Components */,
 				DE6F00A62DE646340051A507 /* CustomViews */,
 				DE6F00B02DE646340051A507 /* Extension */,
@@ -2595,7 +2584,6 @@
 				DE6F027C2DE646340051A507 /* UIView+RxExtension.swift in Sources */,
 				DE6F02832DE646340051A507 /* TextAttributes.swift in Sources */,
 				DE6F02842DE646340051A507 /* ObservableRetrySingle.swift in Sources */,
-				DE6F028E2DE646340051A507 /* AmplitudeManager.swift in Sources */,
 				DE6F02A12DE646340051A507 /* RestAPITransport.swift in Sources */,
 				DE6F02B82DE646340051A507 /* DefaultRequestWrapper.swift in Sources */,
 				DE6F02B92DE646340051A507 /* RxActivityIndicator.swift in Sources */,
@@ -2663,7 +2651,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = X939349SF3;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -2679,7 +2667,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.3;
+				MARKETING_VERSION = 1.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = prep.exams.psitest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -2702,7 +2690,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = X939349SF3;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -2718,7 +2706,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.3;
+				MARKETING_VERSION = 1.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = prep.exams.psitest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
